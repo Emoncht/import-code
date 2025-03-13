@@ -1,0 +1,210 @@
+/* Voucher Code Importer Styles */
+
+.voucher-summary {
+    margin-top: 30px;
+}
+
+.voucher-summary-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.voucher-summary-item {
+    flex-basis: calc(20% - 20px);
+    margin: 10px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.voucher-summary-item a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.voucher-summary-item p {
+    margin-top: 10px;
+}
+
+.voucher-20 {
+    background-color: #e1f5fe;
+}
+
+.voucher-36 {
+    background-color: #f0f4c3;
+}
+
+.voucher-80 {
+    background-color: #fff8e1;
+}
+
+.voucher-160 {
+    background-color: #ffecb3;
+}
+
+.voucher-405 {
+    background-color: #dcedc8;
+}
+
+.voucher-810 {
+    background-color: #c8e6c9;
+}
+
+.voucher-1625 {
+    background-color: #b2dfdb;
+}
+
+.voucher-2000 {
+    background-color: #bbdefb;
+}
+
+.voucher-161 {
+    background-color: #d1c4e9;
+}
+
+.voucher-800 {
+    background-color: #c5cae9;
+}
+
+.voucher-162 {
+    background-color: #f8bbd0;
+}
+
+table.wp-list-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.wp-list-table th,
+table.wp-list-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table.wp-list-table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+table.wp-list-table tr.alternate {
+    background-color: #f9f9f9;
+}
+
+.tablenav {
+    margin-top: 20px;
+}
+
+.tablenav-pages {
+    text-align: right;
+}
+
+.tablenav-pages a,
+.tablenav-pages span {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #f1f1f1;
+    text-decoration: none;
+}
+
+.tablenav-pages span.current {
+    background-color: #ccc;
+}
+
+@media screen and (max-width: 300px) {
+    .voucher-summary-item {
+        flex-basis: calc(50% - 20px);
+    }
+
+    table.wp-list-table th,
+    table.wp-list-table td {
+        display: block;
+        width: 50%;
+    }
+
+    table.wp-list-table th {
+        text-align: center;
+    }
+}
+
+
+/* Delete Used Codes Button */
+.delete-form {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.delete-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
+
+/* Search Form */
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.search-form input[type="text"],
+.search-form input[type="number"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-form input[type="submit"] {
+    padding: 5px 10px;
+}
+
+
+/* Voucher Cards */
+.voucher-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.voucher-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.voucher-card-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    position: relative;
+}
+
+.voucher-card-id {
+    display: inline-block;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.voucher-card-body {
+    padding: 20px;
+}
+
+.voucher-card-body p {
+    margin: 0 0 10px;
+}
